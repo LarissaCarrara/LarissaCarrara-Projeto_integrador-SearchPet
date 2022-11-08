@@ -42,15 +42,16 @@ ul {
     list-style: none;
 }
 
-ul > li {
+header>.botoes>ul > li {
     font-size: 25px;
     margin: 0px 40px 0px 0px;
     padding: 3px;
 }
 
-ul > li> a:hover {
+header>.botoes>ul > li> a:hover {
 
     color: rgb(178, 178, 178);
+    text-decoration: underline;
     
 }
 
@@ -144,6 +145,7 @@ a{
     flex-wrap: wrap;
     align-items: center;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 #animal{
@@ -208,4 +210,57 @@ a{
 }
 #botao:hover{
     color: rgb(255, 255, 255);
+}
+.rodape {
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+footer {
+
+    height: 30vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+#imgf {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contato>ul>li {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.contato>ul {
+    width: 300px;
+
+}
+
+#titlecont {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contato {
+    width: 400px;
+}
+.siga>ul>li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.siga>ul>li:hover{
+    color: white;
+}
+.contato>ul>li:hover{
+    color: white;
 }

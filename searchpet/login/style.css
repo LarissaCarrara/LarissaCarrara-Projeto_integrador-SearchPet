@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 header {
 
     display: flex;
@@ -49,24 +48,23 @@ header {
     padding: 3px;
 }
 
-.botoes > ul > li> a:hover {
+.botes>ul > li> a:hover {
 
     color: rgb(178, 178, 178);
-    text-decoration: underline;
     
 }
 
 
-
 .main {
 
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     background-image: url(./home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
+    justify-content: center;
     align-items: center;
 
 }
@@ -78,91 +76,85 @@ header {
     background-color: rgba(0, 0, 0, 0.496);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-
+  
 }
 
-p {
+header>.botoes>#logo>p {
     margin: 0px 0px 16px 10px;
     font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+header>.botoes>ul>li>a{
     text-decoration: none;
     color: black;
 }
+.botoes > ul > li> a:hover {
 
-
-.t1 {
-    margin-top: 50px;
-    color: white;
-
+    color: rgb(178, 178, 178);
+    text-decoration: underline;
+    
 }
 
-.t2 {
+footer>ul > li> a:hover {
 
-    margin-top: 60px;
-    color: white;
-
+    color: rgb(178, 178, 178);
+    
 }
 
-#lorem {
-    font-size: 16px;
-    margin-top: 15px;
-    text-align: justify;
-    width: 1200px;
-}
+    .rodape {
+        padding: 45px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    footer {
+    
+        height: 30vh;
+        width: 100vw;
+        background-color: gray;
+    }
+    
+    #imgf {
+        height: 30px;
+        margin-right: 10px;
+    }
+    
+    .contato>ul>li {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .contato>ul {
+        width: 300px;
+    
+    }
+    
+    #titlecont {
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    .contato {
+        width: 400px;
+    }
+    .siga>ul>li{
+        display: flex;
+        align-items: center;
+    }
+    .siga>ul>li:hover{
+        color: white;
+    }
+    .contato>ul>li:hover{
+        color: white;
+    }
 
-.rodape {
-    padding: 45px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
 
-}
-
-footer {
-
-    height: 30vh;
-    width: 100vw;
-    background-color: gray;
-}
-
-#imgf {
-    height: 30px;
-    margin-right: 10px;
-}
-
-.contato>ul>li {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-
-}
-
-.contato>ul {
-    width: 300px;
-
-}
-
-#titlecont {
-    font-size: 25px;
-    padding: 10px;
-}
-
-.contato {
-    width: 400px;
-}
-.siga>ul>li{
-    display: flex;
-    align-items: center;
-}
-.siga>ul>li:hover{
-    color: white;
-}
-.contato>ul>li:hover{
-    color: white;
-}
