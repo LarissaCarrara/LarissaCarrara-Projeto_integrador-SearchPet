@@ -9,12 +9,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     background-color: gainsboro;
     
 
 }
+
+
 
 .logo {
     display: flex;
@@ -34,6 +36,7 @@ header {
 .botoes > ul{
     display: flex;
     align-items: center;
+
 }
 ul {
     list-style: none;
@@ -43,17 +46,20 @@ header>.botoes>ul > li {
     font-size: 25px;
     margin: 0px 40px 0px 0px;
     padding: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-footer>ul > li> a:hover {
+header>.botoes>ul > li> a:hover {
 
     color: rgb(178, 178, 178);
+    text-decoration: underline;
     
 }
 
+
 .main {
 
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     background-image: url(./home.jpg);
     background-repeat: no-repeat;

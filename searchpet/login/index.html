@@ -58,14 +58,14 @@
                         
 			            <div id="div_senha">
                             <label><img src="../image/padlock.png" id="img_login"></label>
-                            <input type="password" id="login" placeholder="  Insira sua senha" required/> 
+                            <input type="password" id="senha" placeholder="  Insira sua senha" required/> 
                         </div>
                        
                         <div id="checkbox">
                             <input type="checkbox" id="lembrar">
                             <label for="lembrar" id="textlembrar">Lembrar-me</label>
                         </div>
-                        <input type="button" value="Entrar" id="botao_entrar">
+                        <input type="button" value="Entrar" id="botao_entrar" onclick="login.value == 'larissa.carrara@hotmail.com' && senha.value =='1234' ? alert('Sucesso'):alert('Login inválido')">
                         <span>
                              <hr size="10" width="35%" id="linha"> 
                             <p id="textspan">Ou</p>
