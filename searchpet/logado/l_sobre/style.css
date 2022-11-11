@@ -5,6 +5,9 @@
 }
 
 
+body{
+    overflow-x: hidden;
+}
 header {
 
     display: flex;
@@ -31,23 +34,53 @@ header {
     font-size: 30px;
     margin-left: 5px;
     width: 40px;
-    color: black;
+    color: black
 }
 
 .botoes > ul{
     display: flex;
     align-items: center;
-
+   
 }
-header>.botoes > ul {
+ul {
     list-style: none;
+    
+}
+
+#divuser{
+
+    height: 1%;
+    
+}
+#textuser{
+    font-size: 10px;
+    height: 1%;
+    color: black;
+}
+#user{
+    width: 35px;
+    padding-top: 15px;
+}
+#optext{
+    font-size: 13px;
+}
+#label{
+   background-color: transparent;
+   border: none;
+   width: 10%;
+}
+#ultimo_li{
+    margin: 0;
+    width: 150px;
+    display: flex;
+    align-items: center;
 }
 
 header>.botoes > ul > li {
     font-size: 25px;
     margin: 0px 40px 0px 0px;
     padding: 3px;
-     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 header>.botoes > ul > li> a:hover {
