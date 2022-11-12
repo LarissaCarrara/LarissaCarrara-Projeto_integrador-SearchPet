@@ -21,7 +21,6 @@ header {
 }
 
 
-
 .logo {
     display: flex;
     align-items: center;
@@ -62,12 +61,12 @@ ul {
     padding-top: 15px;
 }
 #optext{
-    font-size: 13px;
+    font-size: 20px;
 }
-#label{
-   background-color: transparent;
-   border: none;
-   width: 10%;
+select{
+    width: 25px;
+    border: none;
+    background-color: transparent;
 }
 #ultimo_li{
     margin: 0;

@@ -60,13 +60,14 @@ ul {
     width: 35px;
     padding-top: 15px;
 }
-#optext{
-    font-size: 13px;
+
+select{
+    width: 25px;
+    border: none;
+    background-color: transparent;
 }
-#label{
-   background-color: transparent;
-   border: none;
-   width: 10%;
+#optext{
+    font-size: 20px;
 }
 #ultimo_li{
     margin: 0;
@@ -89,7 +90,9 @@ header>.botoes>ul > li> a:hover {
     text-decoration: underline;
     
 }
-
+#optext{
+    font-size: 18px;
+}
 
 .main {
 

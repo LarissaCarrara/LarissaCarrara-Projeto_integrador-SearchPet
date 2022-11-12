@@ -32,11 +32,12 @@
     
                 <li id="ultimo_li"> 
                     <label for="user" > <img src="/image/user_branco.png" id="user"></label>
-                        <select id="label">
-                            <option id="optext">LarissaCarrara</option>
+                        <select name="label" onchange="location = this.value;"> 
+                            <option id="optext">perfil</option>
+                            <option id="optext" value="/home/index.html">sair</option>
                         </select>
-                       
-                    </label>
+                           
+                        </label>
                 </li>
             </ul>
         </div>
