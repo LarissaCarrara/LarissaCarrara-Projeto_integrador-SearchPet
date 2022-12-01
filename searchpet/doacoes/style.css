@@ -88,6 +88,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 a{
     text-decoration: none;
     color: black;
@@ -220,20 +221,26 @@ a{
 #fotoanimal{
     width: 100%;
     height: 60%;
-    background-image: url("animal1.png");
-    background-position: center;
-    background-size: cover;
+
     
 }
+#fotoanimal2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
 #inf-animal{
     width: 100%;
     height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-   
+    padding-top: 10px;
 }
+
 #botao-animal{
     width: 100%;
     height: 40%;
@@ -250,6 +257,7 @@ a{
     width: 45%;
     height: 20%;
     background-color: rgb(160, 156, 156);
+    font-size: 10px;
 }
 #status{
     color:rgb(13, 192, 13);
@@ -395,14 +403,17 @@ a{
 
 footer {
 
-    height: 285px;
+    height: 35vh;
     width: 100%;
     background-color: gray;
+    display: flex;
+    justify-content: center;
 }
 
 #imgf {
     height: 30px;
     margin-right: 10px;
+    margin-bottom: 4px;
 }
 
 .contato>ul>li {
@@ -411,7 +422,9 @@ footer {
     align-items: center;
 
 }
-
+.contato {
+    width: 400px;
+}
 .contato>ul {
     width: 100%;
 
@@ -422,9 +435,6 @@ footer {
     padding: 10px;
 }
 
-.contato {
-    width: 100%;
-}
 .siga>ul>li{
     display: flex;
     align-items: center;
@@ -437,10 +447,10 @@ footer {
 }
 @media(max-width: 1200px){
     /* ARRUMAR AKI O TAMANHO DPS */
-    .card{
+    /* .card{
         /* height: 500px; */
         /* height: 2000px; */
-    }
+    
     #opcoes u b{
         /* display: none; */
         font-size: 13px;
@@ -501,6 +511,10 @@ footer {
     #animal{
         width: 20%;
     }
+    #inf-animal>p{
+        font-size: 10px;
+        padding-top:10px;
+    }
 }
 @media(max-width: 880px){
 
@@ -545,4 +559,11 @@ footer {
         width: 35%;
     }
 
+}
+
+@media(max-width: 380px){
+#inf-animal{
+    font-size: 5px;
+    padding-top:10px;
+}
 }

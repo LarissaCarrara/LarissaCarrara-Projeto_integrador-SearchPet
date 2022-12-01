@@ -1,7 +1,7 @@
 const botao = document.getElementById('burger')
 const menuMobile = document.getElementById('menuMobile')
 const opDoacoes = document.getElementById('opDoacao')
-
+const cad = document.querySelector('#botao_cadastro')
 botao.addEventListener('click', abrir)
 
 function abrir(){
@@ -16,3 +16,5 @@ function abrirOp(){
     opDoacoes.classList.toggle('active')
     opcoes.classList.toggle('active')
 }
+
+

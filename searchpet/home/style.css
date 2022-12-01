@@ -1,4 +1,4 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -93,13 +93,12 @@ a{
 }
 
 #img {
-    width: 100px;
-    max-height: 600px;
+    height: 500px;
 } 
 
 .fundo {
-    width: 1200px;
-    height: 750px;
+    width: 70vw;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,25 +229,36 @@ a{
 #menuMobile.active{
     transform: translateX(20%);
 }
-footer {
+.footer {
 
-    height: 285px;
+    height: 35vh;
     width: 100%;
-    background-color: gray;
+    display: flex;
+    justify-content: center;
 }
+.rodape {
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
 
+}
 #imgf {
     height: 30px;
     margin-right: 10px;
+    margin-bottom: 6px;
 }
 
 .contato>ul>li {
     font-size: 15px;
     display: flex;
     align-items: center;
-
 }
-
+.contato {
+    width: 400px;
+}
 .contato>ul {
     width: 100%;
 
@@ -259,12 +269,11 @@ footer {
     padding: 10px;
 }
 
-.contato {
-    width: 100%;
-}
+
 .siga>ul>li{
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 .siga>ul>li:hover{
     color: white;

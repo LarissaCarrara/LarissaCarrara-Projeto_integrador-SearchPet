@@ -124,7 +124,7 @@ a {
 
 footer {
 
-    height: 30vh;
+    height: 35vh;
     width: 100vw;
     background-color: gray;
 }
@@ -132,6 +132,7 @@ footer {
 #imgf {
     height: 30px;
     margin-right: 10px;
+    margin-bottom: 4px;
 }
 
 .contato>ul>li {
